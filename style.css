@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 0;
+}
+
+main {
+  min-width: max-content;
+}
+
+main>div>div {
+  display: inline-block;
+  min-width: 150px;
+  min-height: 50px;
+  vertical-align: middle;
+}
+
+main>div>div, main>div>div>div {
+  font-size: 18px;
+}
+
+main>div:first-child>div:nth-child(n+2)>div:nth-child(2) {
+  font-size: 28px;
+  margin-top: 10px;
+}
+
+main>div:first-child>div:nth-child(n+2) {
+  padding: 10px;
+}
+
+button {
+  font-size: 12px;
+  color: #525252;
+  text-transform: uppercase;
+  padding: 0.5em 1.5em;
+}
+
+main>div>div:first-child  {
+  width: 10vw;
+  min-width: 250px;
+}
+
+main>div:nth-child(n+2)>div:first-child {
+  padding-left: 20px;
+} 
+
+main>div:nth-child(n+2)>div, main>div>div:first-child {
+  padding: 0.8em 0;
+}
+
+main>div:last-child>div {
+  padding: 0.5em 0;
+}
+
+main>div:first-child>div:first-child {
+  padding: 2.3em 0;
+}
+
+main>div:nth-child(n+2)>div:nth-child(n+2) {
+  text-align: center;
+}
+
+main>div:first-child>div {
+  color: #ffffff;
+}
+
+main>div:first-child>div:nth-child(n) {
+  text-align: center;
+}
+
+main>div:nth-child(even)>div:nth-child(odd) {
+  background-color: #dbdbdb;
+}
+
+main>div:nth-child(odd)>div:nth-child(odd), main>div:nth-child(even)>div:nth-child(even) {
+  background-color: #e7e7e7;
+}
+
+main>div:nth-child(odd)>div:nth-child(even) {
+  background-color: #f3f3f3;
+}
+
+main>div:first-child>div:nth-child(1) {
+ background-color: #7887ab;
+}
+
+main>div:first-child>div:nth-child(2) {
+  background-color: #4f628e;
+}
+
+main>div:first-child>div:nth-child(3) {
+  background-color: #2e4172;
+}
+
+main>div:first-child>div:nth-child(4) {
+  background-color: #162955;
+}
+
+main>div:first-child>div:nth-child(5) {
+  background-color: #061539;
+}
